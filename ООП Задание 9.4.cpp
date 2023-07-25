@@ -3,6 +3,7 @@
 #include "triangle.h"
 #include "square.h"
 #include "rectangle.h"
+#include "circle.h"
 using namespace std;
 
 int main()
@@ -29,5 +30,10 @@ int main()
 	rectangle rect;
 	rect.Input();
 	rect.Output();
+	cout << endl;
+
+	circle circ;
+	circ.Input();
+	circ.Output();
 	cout << endl;
 }
