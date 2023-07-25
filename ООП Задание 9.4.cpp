@@ -2,6 +2,7 @@
 #include "figure.h"
 #include "triangle.h"
 #include "square.h"
+#include "rectangle.h"
 using namespace std;
 
 int main()
@@ -23,5 +24,10 @@ int main()
 	square squa;
 	squa.Input();
 	squa.Output();
+	cout << endl;
+
+	rectangle rect;
+	rect.Input();
+	rect.Output();
 	cout << endl;
 }

@@ -11,7 +11,7 @@ triangle::triangle() : figure()
 
 void triangle::Input()
 {
-	cout << "(Функция Input() дочернего класса triangle) Введите сторону равностороннего треугольника: ";
+	cout << "(Функция Input() дочернего класса triangle)\nВведите сторону равностороннего треугольника: ";
 	cin >> side;
 	cout << endl;
 }
@@ -19,8 +19,8 @@ void triangle::Input()
 void triangle::Output()
 {
 	cout << "(Функция Output() дочернего класса triangle)\n";
-	cout << "Площадь равностороннего треугольника со стороною " << side << " равна " << triangle::Square() << endl;
-	cout << "Периметр равностороннего треугольника со стороною " << side << " равна " << triangle::Perimeter() << endl;
+	cout << "Площадь равностороннего треугольника со стороною " << side << " равна " << Square() << endl;
+	cout << "Периметр равностороннего треугольника со стороною " << side << " равна " << Perimeter() << endl;
 	cout << endl << endl;
 }
 

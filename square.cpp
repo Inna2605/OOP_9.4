@@ -11,7 +11,7 @@ square::square() : figure()
 
 void square::Input()
 {
-	cout << "(Функция Input() дочернего класса square) Введите сторону квадрата: ";
+	cout << "(Функция Input() дочернего класса square)\nВведите сторону квадрата: ";
 	cin >> side;
 	cout << endl;
 }
@@ -19,8 +19,8 @@ void square::Input()
 void square::Output()
 {
 	cout << "(Функция Output() дочернего класса square)\n";
-	cout << "Площадь квадрата со стороною " << side << " равна " << square::Square() << endl;
-	cout << "Периметр квадрата со стороною " << side << " равна " << square::Perimeter() << endl;
+	cout << "Площадь квадрата со стороною " << side << " равна " << Square() << endl;
+	cout << "Периметр квадрата со стороною " << side << " равна " << Perimeter() << endl;
 	cout << endl << endl;
 }
 

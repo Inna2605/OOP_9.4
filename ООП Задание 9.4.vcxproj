@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="figure.cpp" />
+    <ClCompile Include="rectangle.cpp" />
     <ClCompile Include="square.cpp" />
     <ClCompile Include="triangle.cpp" />
     <ClCompile Include="ООП Задание 9.4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="figure.h" />
+    <ClInclude Include="rectangle.h" />
     <ClInclude Include="square.h" />
     <ClInclude Include="triangle.h" />
   </ItemGroup>

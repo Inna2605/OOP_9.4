@@ -1,14 +1,15 @@
 #pragma once
 #include "figure.h"
-
-class triangle : public figure
+class rectangle : public figure
 {
+private:
+	float side2;
 public:
-	triangle();//Конструктор дочернего класа triangle
+	rectangle();//Конструктор дочернего класа rectangle
 	void Input();//Переопределение функции
 	void Output();//Переопределение функции
 	float Square();//Замещение функции
 	float Perimeter();//Замещение функции
-	~triangle();//Деструктор дочернего класа triangle
+	~rectangle();//Деструктор дочернего класа rectangle
 };
 
