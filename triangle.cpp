@@ -4,13 +4,9 @@
 #include "triangle.h"
 using namespace std;
 
-float a, square, perimeter;
-
 triangle::triangle() : figure()
 {
 	cout << "Конструктор дочернего класса triangle.\n";
-	/*side = a;
-	cout << endl;*/
 }
 
 void triangle::Input()
@@ -23,25 +19,23 @@ void triangle::Input()
 void triangle::Output()
 {
 	cout << "(Функция Output() дочернего класса triangle)\n";
-	triangle::Square();
-	cout << "Площадь равностороннего треугольника со стороною " << side << " равна " << square << endl;
-	triangle::Perimeter();
-	cout << "Периметр равностороннего треугольника со стороною " << side << " равна " << perimeter << endl;
+	cout << "Площадь равностороннего треугольника со стороною " << side << " равна " << triangle::Square() << endl;
+	cout << "Периметр равностороннего треугольника со стороною " << side << " равна " << triangle::Perimeter() << endl;
 	cout << endl << endl;
 }
 
 float triangle::Square()
 {
-	cout << "(Функция Square() дочернего класса triangle)\n";
-	square = (sqrt(3) / 4) * (side * side);
-	return square;
+	cout << "(Функция Square() дочернего класса triangle: Вычисление площади)\n";
+	float Squa = (sqrt(3) / 4) * (side * side);
+	return Squa;
 }
 
 float triangle::Perimeter()
 {
-	cout << "(Функция Perimeter() дочернего класса triangle)\n";
-	perimeter = 3 * side;
-	return perimeter;
+	cout << "(Функция Perimeter() дочернего класса triangle: Вычисление периметра)\n";
+	float Perim = 3 * side;
+	return Perim;
 }
 
 triangle::~triangle()

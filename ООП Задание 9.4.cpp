@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "figure.h"
-#include"triangle.h"
+#include "triangle.h"
+#include "square.h"
 using namespace std;
 
 int main()
@@ -17,4 +18,10 @@ int main()
 	triangle tria;
 	tria.Input();
 	tria.Output();
+	cout << endl;
+
+	square squa;
+	squa.Input();
+	squa.Output();
+	cout << endl;
 }
